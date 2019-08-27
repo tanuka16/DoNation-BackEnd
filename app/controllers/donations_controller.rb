@@ -1,9 +1,9 @@
 # require 'stripe'
 class DonationsController < ApplicationController
-  # def index
-  #   @charges = Charge.all
-  #   render json: @charges
-  # end
+  def index
+    @donations = Donation.all
+    render json: @donations
+  end
   def create
 
     Stripe.api_key='sk_test_XWKFjk2v8sAjh04L9IQQfnkr00yDe85TAp'

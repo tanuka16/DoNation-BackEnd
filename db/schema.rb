@@ -17,10 +17,11 @@ ActiveRecord::Schema.define(version: 2019_08_13_152203) do
 
   create_table "charities", force: :cascade do |t|
     t.string "name"
-    t.string "state"
+    t.string "city"
+    t.string "country"
     t.string "category"
-    t.string "img_url"
-    t.string "description"
+    t.string "logo_url"
+    t.string "mission"
     t.string "website_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
