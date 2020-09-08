@@ -1,24 +1,29 @@
-# README
+# DoNation (Back-end)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tech stack
+**Frontend:** React, HTML and CSS<br>
+**Backend:** Ruby on Rails<br>
+**Database:** PostgreSQL<br>
 
-Things you may want to cover:
+## Application Figures
 
-* Ruby version
+Project Page: 
+<br>
+<br>
+![](public/1.png)
+<br>
+![](public/2.png)
+<br>
+![](public/3.png)
 
-* System dependencies
+## How it works?
 
-* Configuration
+- First, learn about the numerous charitable organization provided, filter by city and/or country
+- Second, select the organization you would like to support
+- Third, sign up or login for the access to the payment option
+- Next, use cadit card to award donations
+- For more details to navigate through the website checkout the chatbot
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Frontend GitHub Repository:** https://github.com/tanuka16/DoNation-Front-end
+<br>
+**Live Demo:** https://donation-smile.herokuapp.com/
